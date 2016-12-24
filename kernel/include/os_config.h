@@ -1,0 +1,9 @@
+
+#ifndef __OS_CONFIG__
+#define __OS_CONFIG__ 
+
+#define OS_CONFIG_PRIORITY_READY_TABLE_SIZE 1
+
+#define OS_CONFIG_NUMBER_OF_PRIORITY OS_CONFIG_PRIORITY_READY_TABLE_SIZE*sizeof(OSCPUData_t)
+
+#endif /* __OS_CONFIG__ */
